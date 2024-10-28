@@ -8,7 +8,7 @@ import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
 @Component
-class UserRegistrationListener implements ApplicationListener<UserRegistrationEvent> {
+public class UserRegistrationListener implements ApplicationListener<UserRegistrationEvent> {
 
     private static Logger logger = LoggerFactory.getLogger(UserRegistrationService.class);
 
