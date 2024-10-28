@@ -1,5 +1,6 @@
-package org.example.user;
+package org.example.user.events;
 
+import org.example.user.UserRegistrationService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationListener;
