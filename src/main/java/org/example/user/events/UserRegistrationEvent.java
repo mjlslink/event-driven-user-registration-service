@@ -5,7 +5,7 @@ import org.springframework.context.ApplicationEvent;
 
 @Getter
 public class UserRegistrationEvent extends ApplicationEvent {
-    private String username;
+    private final String username;
 
     public UserRegistrationEvent(String username) {
         super(username);
